@@ -1,4 +1,4 @@
-![optimizer titelbild](https://github.com/user-attachments/assets/5f4388a3-31e6-47e7-bde9-f792405d6bd3)
+![optimizer titelbild](https://github.com/user-attachments/assets/105796b6-8b56-4f65-b9a7-92043a01025e)
 
 # Willkommen bei Optimizer
 
