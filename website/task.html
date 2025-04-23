@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+<head>
+	<meta charset="utf-8">
+	<title>Task anlegen</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body id="taskBody" class="bodyDoing">
+
+<header>
+	<div class="doingHeader">
+		<form class="containerItemContent" method="post" id="itemStatus">
+			<label for="statusPopupTask"></label>
+			<select class="selectItemStatus" name="statusPopup" id="statusPopupTask">
+				<option value="" disabled selected>Status</option>
+				<option value="1">Löschen</option>
+				<option value="2">Neu</option>
+				<option value="3">Geplant</option>
+				<option value="4">Begonnen</option>
+				<option value="5">Fertig</option>
+			</select>
+		</form>
+	</div>
+</header>
+
+<form class="contentDoing" id="taskForm">
+	<div class="containerItemTitle">
+		<label for="labelItemTitle"></label>
+		<input
+				class="inputItemTitle"
+				name="title of the todo"
+				autofocus
+				id="labelItemTitle"
+				type="text"
+				placeholder="Titel eingeben"
+				required
+		>
+	</div>
+
+	<div class="containerItemDescription">
+		<label for="textareaItemDescription"></label>
+		<textarea name="describe the todo" class="textareaItemDescription" id="textareaItemDescription"
+				  placeholder="Beschreibung eingeben"></textarea>
+	</div>
+</form>
+
+<footer>
+	<input type="submit" class="footerButton" id="buttonAddTask" form="taskForm" value="Task anlegen">
+</footer>
+
+<script type="module" src="task.js"></script>
+</body>
+</html>

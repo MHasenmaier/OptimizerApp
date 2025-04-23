@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+<head>
+	<meta charset="utf-8">
+	<title>Übersicht</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body id="bodyOverview" class="bodyLandingHome">
+
+<header>
+	<p class="date" id="date"></p>
+	<p class="time" id="time"></p>
+	<div class="menu">
+		<button id="menuButton" type="button">
+			<span class="menuDot"></span>
+			<span class="menuDot"></span>
+			<span class="menuDot"></span>
+		</button>
+	</div>
+
+	<div class="popupMenuWindow popupMenuWindowHide">
+		<button id="headerOverviewArchivButton">Archiv</button>
+		<button id="headerOverviewFocusButton">Fokus</button>
+	</div>
+</header>
+
+<div class="contentOverview"></div>
+
+<footer>
+	<input type="button" id="footerOverviewAddTodoButton" value="Todo anlegen">
+</footer>
+
+<script type="module" src="overview.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+<head>
+	<meta charset="utf-8">
+	<title>Fokus</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body id="bodyFocus" class="bodyDoing">
+
+<header class="headerFocusExt">
+	<h1>Fokus</h1>
+</header>
+
+<div class="contentDoing">
+
+	<div class="focusToggle" id="focusToggleTodo">
+		<div class="containerFocusSlider">
+			<label class="focusSliderToggle" for="focusTodoCheck">
+				<input type="checkbox" id="focusTodoCheck">
+				<span class="slider"></span>
+			</label>
+			<p>Todo Fokus setzen</p>
+		</div>
+
+		<div class="focusSliderPopup focusSliderPopupHide" id="focusMaxTodosPopup">
+			<p>Max aktive Todos?</p>
+			<label for="focusMaxTodos"></label>
+			<input type="number" min="1" step="1" inputmode="decimal" id="focusMaxTodos" value="1">
+		</div>
+	</div>
+
+	<div class="focusToggle" id="focusToggleTask">
+		<div class="containerFocusSlider">
+			<label class="focusSliderToggle" for="focusTaskCheck">
+				<input type="checkbox" id="focusTaskCheck">
+				<span class="slider"></span>
+			</label>
+			<p>Task Fokus setzen</p>
+		</div>
+
+		<div class="focusSliderPopup focusSliderPopupHide" id="focusMaxTasksPopup">
+			<p>Max aktive Tasks?</p>
+			<label for="focusMaxTasks"></label>
+			<input type="number" min="1" step="1" inputmode="decimal" id="focusMaxTasks" value="1"/>
+		</div>
+	</div>
+
+</div>
+
+<footer>
+	<input type="button" class="footerButton" id="closeFocusButton" value="Zurück">
+</footer>
+<script type="module" src="focus.js"></script>
+</body>
+</html>
