@@ -35,4 +35,6 @@ Der Einstiegspunkt für die App ist die landingpage.html.
 Nachdem Starten der App über die landingpage.html (Klicken auf den Button oder das Bild), prüft die App ob auf dem Rechner bereits eine Datenbank existiert,
 und sollte dies nicht der Fall sein, wird eine neue angelegt.
 
+# Architektur
+
 ![Optimizer Architektur](https://github.com/user-attachments/assets/18e55f80-ab35-47f2-bc2a-50c47990cee1)
