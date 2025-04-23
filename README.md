@@ -38,3 +38,7 @@ und sollte dies nicht der Fall sein, wird eine neue angelegt.
 # Architektur
 
 ![Optimizer Architektur](https://github.com/user-attachments/assets/18e55f80-ab35-47f2-bc2a-50c47990cee1)
+
+# Ordnerstruktur der Applikation im XAMPP-Kontext
+
+![BILD Ordnerstruktur](https://github.com/user-attachments/assets/c78ee92d-1fea-4af6-8158-291f0a87fba9)
