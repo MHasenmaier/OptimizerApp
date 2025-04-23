@@ -30,9 +30,9 @@ Getestet wurde die App auf Google Chrome.
 Zuerst sollte der Apache Server und die MySQL (MariaDB) in XAMPP gestartet werden.
 Der Einstiegspunkt für die App ist die landingpage.html.
 
-## Die Datenbank nach dem Starten ist leer.
+## Leere Datenbank nach dem ersten Starten der App
 
-Nachdem Starten der App über die landingpage.html (Klicken auf den Button oder das Bild), prüft die App ob auf dem Rechner bereits eine Datenbank existiert,
+Nach dem Starten der App über die landingpage.html (Klicken auf den Button oder das Bild), prüft die App ob auf dem Rechner bereits eine Datenbank existiert,
 und sollte dies nicht der Fall sein, wird eine neue angelegt.
 
 # Architektur
