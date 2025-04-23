@@ -1,40 +1,74 @@
 # Pages
 
-## landing page
+## Landingpage
 
-the userflow starts with this page.
-click the button or the picture to get access to the overview page.
+Der Anwender steigt über landingpage.html in die App ein.
+Diese Seite hat direkte Abhängigkeiten im Frontend zu:
 
-## overview
+- services.js
+- landingpage.js
 
-this page is the overviewpage.
-the user can navigate from this page to:
+## Overview
 
-- archiv
-- create new todo
-- focus page
-- refine todo
-- attached tasks
+Auf der overview.html kann der Anwender zu folgenden Seiten navigieren:
 
-### attached tasks
+- Archiv- und Gelöscht-Seite
+- Fokusseite
+- Todo
 
-the user can see directly how many tasks are attached to a shown todo.
-when the user activate the button the attached tasks are dropdown-like listed below the todo.
+Diese Seite hat direkte Abhängigkeiten im Frontend zu:
 
-## archiv
+- overview.js
+- services.js
 
-this page contains todos marked "deleted" or "done".
+## Todo
 
-## focus page
+Auf der todo.html können neue Todos angelegt oder vorhandene bearbeitet werden.
 
-this page allows the user to set how many todos and tasks may be active at the same time.
+Über diese Seite hat der Anwender Zugriff auf task.html
 
-## create new todo
+Diese Seite hat direkte Abhängigkeiten im Frontend zu:
 
-the user can create new todos at this page.
+- todo.js
+- services.js
 
-## refine todo
+### Task
 
-the user can refine existing todos and update them.
+Auf der task.html können neue Tasks an ein Todo angehängt werden oder bestehende bearbeitet werden.
+
+Diese Seite kann ausschließlich über todo.html erreicht werden.
+Für die spätere Entwicklung könnte eine "tasklist.html" entwickelt werden, welche lediglich alle Tasks eines Todos enthält und
+besseren Überblick über alle vorhandene Tasks eines Todos bietet.
+
+Diese Seite hat direkte Abhängigkeiten im Frontend zu:
+
+- task.js
+- services.js
+
+## Archiv und Gelöscht
+
+Auf der archiv.html findet der Anwender alle Todos mit dem Status 5 (= Beendet).
+
+Von dieser Seite aus kann der Anwender ausserdem zu deleted.html (gelöschte Todos (Status = 1))  navigieren.
+
+Diese Seite hat direkte Abhängigkeiten im Frontend zu:
+
+- archiv.js
+- deleted.js
+- services.js
+
+## Fokus
+
+Auf der focus.html kann der Anwender das Limit für aktive (Status = 4) Todos und Tasks einstellen.
+Diese Funktion ist elementarer Bestandteil der App, da sie für die Regulierung des Work-In-Progress des Anwenders verantwortlich ist.
+
+Diese Seite hat direkte Abhängigkeiten im Frontend zu:
+
+- focus.js
+- services.js
+
+# Wichtig
+Die Seiten haben logischerweise Abhängigkeiten in das Backend.
+Jeder "index"-Aufruf im Frontend steuert das Backend an.
 
 
