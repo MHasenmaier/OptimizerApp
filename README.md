@@ -41,4 +41,5 @@ und sollte dies nicht der Fall sein, wird eine neue angelegt.
 
 # Ordnerstruktur der Applikation im XAMPP-Kontext
 
-![BILD Ordnerstruktur](https://github.com/user-attachments/assets/c78ee92d-1fea-4af6-8158-291f0a87fba9)
+![Ordnerstruktur](https://github.com/user-attachments/assets/0bb264f0-b0b5-409f-969f-f0475fac8544)
+
